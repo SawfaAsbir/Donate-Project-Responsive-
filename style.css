@@ -162,6 +162,7 @@
         margin-bottom: 180px;
     }
     .header-section p{
+        max-width: 400px;
         margin-bottom: 60px;
         opacity: 0.6;
     }
