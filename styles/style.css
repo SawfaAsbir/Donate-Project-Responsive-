@@ -277,7 +277,6 @@
         margin-bottom: 90px;
     }
     .donation-box{
-      margin-left: 20px;
       flex-direction: column;
     }
     .hero-section-donate p{
@@ -286,12 +285,6 @@
     }
     .donate-other-amount hr{
       width: 195px;
-      margin-left: 30px;
-    }
-    .donate-other-amount input{
-      margin-left: 30px;
-    }
-    .hero-section-donate button{
       margin-left: 30px;
     }
 }
@@ -413,4 +406,37 @@
   height: 101px;
   font-size: 16px;
   color: #707070;
+}
+/* Responsive design for our donate section */
+@media screen and (max-width: 576px){
+  /* .card-section{
+    flex-direction: column;
+  }
+  .card-1{
+    max-width: 180px;
+    border-radius: 5px;
+  }
+  .card-1 h3{
+    max-width: 120px;
+    height: 50px;
+  } */
+   .header-section-of-donate-plan p{
+    max-width: 400px;
+    margin-left: 5px;
+   }
+   .card-section{
+    flex-direction: column;
+   }
+   .card-1{
+    margin-left: 23px;
+    margin-bottom: 20px;
+   }
+   .card-2{
+    margin-left: 23px;
+    margin-bottom: 20px;
+   }
+   .card-3{
+    margin-left: 2px;
+    margin-bottom: 20px;
+   }
 }
