@@ -441,3 +441,192 @@
     margin-bottom: 20px;
    }
 }
+/* Styles for Donation Plan Content */
+.donation-plan-centent{
+  margin-bottom: 100px;
+}
+.parent-of-text-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent-of-text-part img{
+  width: 456px;
+  height: 477px;
+  border-radius: 5px;
+}
+.child-of-text-part{
+  max-width: 493px;
+  height: 374px;
+  margin-right: 83px;
+  
+}
+.child-of-text-part h1{
+  max-width: 492px;
+  height: 108px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.para-1{
+  max-width: 482px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.para-2{
+  max-width: 482px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+.child-of-text-part button{
+  width: 230px;
+  height: auto;
+  color: #FFFFFF;
+  background-color: #FF5959;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* Styles for Donation Plan Content 2 */
+.donation-plan-content-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donation-plan-content-2 img{
+  max-width: 456px;
+  height: 477px;
+  border-radius: 5px;
+  margin-right: 94px;
+}
+.child-of-text-part-2 h1{
+  max-width: 492px;
+  height: 108px;
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.para-3{
+  max-width: 482px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.para-4{
+  max-width: 482px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 30px;
+}
+.child-of-text-part-2{
+  flex-direction: column;
+  text-align: left;
+}
+.child-of-text-part-2 button{
+  width: 230px;
+  height: auto;
+  color: #FFFFFF;
+  background-color: #FF5959;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+/* Responsive design for donation plan section */
+@media screen and (max-width: 576px){
+  .parent-of-text-part{
+    flex-direction: column;
+  }
+  /* .child-of-text-part-2 h1{
+    text-align: center;
+    max-width: 240px;
+    margin-bottom: 180px;
+  }
+  .para-3{
+    max-width: 282px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  .para-4{
+    max-width: 282px;
+    margin-left: 8px;
+  }
+  .parent-of-text-part img{
+    max-width: 256px;
+    height: 277px;
+  } */
+  /* .child-of-text-part-2 button{
+    margin-bottom: 30px;
+  } */
+   .parent-of-text-part img{
+    visibility: hidden;
+    display: none;
+   }
+   .donation-plan-content-2 img{
+    display: none;
+   }
+  .para-1{
+    max-width: 282px;
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .para-2{
+    max-width: 282px;
+    text-align: center;
+  }
+  .child-of-text-part-2 h1{
+  max-width: 250px;
+  margin-top: 120px;
+  text-align: center;
+  margin-left: 45px;
+  margin-bottom: 80px;
+  }
+  .para-3{
+  max-width: 282px;
+  margin-bottom: 80px;
+  text-align: center;
+  margin-left: 10px;
+  }
+  .para-4{
+  max-width: 282px;
+  margin-left: 23px;
+  }
+  .child-of-text-part h1{
+   margin-bottom: 130px;
+   max-width: 250px;
+   text-align: center;
+   margin-left: 15px;
+  }
+  .child-of-text-part{
+    margin: 0 auto;
+  }
+  .child-of-text-part button{
+    margin-left: 26px;
+    margin-bottom: 10px;
+  }
+  .child-of-text-part{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .child-of-text-part-2 h1{
+    margin-left: 24px;
+  }
+  .child-of-text-part-2 button{
+    margin-left: 32px;
+  }
+}
