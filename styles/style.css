@@ -242,6 +242,35 @@
     font-size: 30px;
     font-weight: bold;
 }
+.donate-other-amount input{
+  max-width: 192px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(179, 179, 179, 100);
+  margin-bottom: 9.5px;
+  text-decoration: none;
+  border: none;
+}
+.donate-other-amount hr{
+  width: 780px;
+  margin-bottom: 30px;
+  color: #DADADA;
+  opacity: 0.5;
+}
+.hero-section-donate button{
+  font-size: 20px;
+    font-weight: 600px;
+    max-width: 160px;
+    height: auto;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    padding: 16px 20.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 130px;
+    border: none;
+}
 /* Responsive donate today section for mobile */
 @media screen and (max-width: 576px){
     .hero-section-donate h1{
@@ -254,5 +283,15 @@
     .hero-section-donate p{
       margin-left: 5px;
       margin-right: 5px;
+    }
+    .donate-other-amount hr{
+      width: 195px;
+      margin-left: 30px;
+    }
+    .donate-other-amount input{
+      margin-left: 30px;
+    }
+    .hero-section-donate button{
+      margin-left: 30px;
     }
 }
