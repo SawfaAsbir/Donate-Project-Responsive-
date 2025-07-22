@@ -295,3 +295,122 @@
       margin-left: 30px;
     }
 }
+/* styles of our donate plan */
+.header-section-of-donate-plan{
+  max-width: 691px;
+  height: 130px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.header-section-of-donate-plan h1{
+  font-size: 45px;
+  font-weight: bold;
+  color: #121212;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header-section-of-donate-plan p{
+  max-width: 691px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 50px;
+}
+/* styles of card-1 */
+.card-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 130.5px;
+}
+.card-1{
+  max-width: 360px;
+  height: 352px;
+  background-color: rgba(79, 157, 166, 0.10);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+.card-1 img{
+  max-width: 58.13px;
+  height: 49.77px;
+  margin: 63.5px 278.87px 32.73px 23px;
+}
+.content-of-card-1{
+  max-width: 315px;
+  height: 153px;
+  margin: 0px 22px 54px 23px;
+}
+.card-1 h3{
+  max-width: 204px;
+  height: 36px;
+  font-size: 24;
+  margin-bottom: 16px;
+}
+.card-1 p{
+  max-width: 315px;
+  height: 101px;
+  font-size: 16px;
+  color: #707070;
+}
+/* styles of card-2 */
+.card-2{
+  max-width: 360px;
+  height: 352px;
+  background-color: rgba(255, 89, 89, 0.10);
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.card-2 img{
+  max-width: 53px;
+  height: 53px;
+  margin: 62.6px 279px 29.5px 28px;
+}
+.content-of-card-2{
+  max-width: 315px;
+  height: 153px;
+  margin: 0px 22px 54px 23px;
+}
+.card-2 h3{
+  max-width: 231px;
+  height: 36px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.card-2 p{
+  max-width: 315px;
+  height: 101px;
+  color: #707070;
+}
+/* styles of card-3 */
+.card-3{
+  max-width: 360px;
+  height: 352px;
+  background-color: rgba(255, 244, 214, 0.40);
+  border-radius: 5px;
+}
+.card-3 img{
+  max-width: 53px;
+  height: 53px;
+  margin: 62.2px 284px 29.78px 23px;
+}
+.content-of-card-3{
+  max-width: 315px;
+  height: 153px;
+  margin: 0px 22px 53.72px 23px;
+}
+.card-3 h3{
+  max-width: 250px;
+  height: 36px;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.card-3 p{
+  max-width: 315px;
+  height: 101px;
+  font-size: 16px;
+  color: #707070;
+}
