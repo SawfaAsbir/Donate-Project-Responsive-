@@ -242,3 +242,17 @@
     font-size: 30px;
     font-weight: bold;
 }
+/* Responsive donate today section for mobile */
+@media screen and (max-width: 576px){
+    .hero-section-donate h1{
+        margin-bottom: 90px;
+    }
+    .donation-box{
+      margin-left: 20px;
+      flex-direction: column;
+    }
+    .hero-section-donate p{
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+}
